@@ -275,6 +275,8 @@ in components inside the fn's return we can write normal html
 
 # conditional rendering
     allows you to control what gets renderd in your application based on certain conditions(show,hide,or change components)
+# click event 
+    An interaction when a user clicks on a specific element. We can respond to clicks by passing a callback to the onClick event handler.
 
 
 

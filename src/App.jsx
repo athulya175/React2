@@ -3,6 +3,7 @@ import ButtonStyleInline from "./ButtonStyleInline"
 import Button from "./Components/ButtonStyle"
 import Card from "./Components/Card"
 import ConditionUser from "./Components/ConditionUser"
+import EventButton from "./Components/EventButton"
 import Food from "./Components/Food"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
@@ -13,6 +14,9 @@ import Qnested from "./Problems/Qnested"
 import Qprofile from "./Problems/Qprofile"
 import Qsum from "./Problems/QsumOfTwoNum"
 function App() {
+  const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
+    const veg=[{id:5,name:"potato",calories:110},{id:2,name:"celery",calories:15},{id:3,name:"carrot",calories:25},{id:4,name:"corn",calories:21}]
+    const car=[]
   return(
     <>
     {/* <Header/>
@@ -37,8 +41,13 @@ function App() {
     <Qbutton label="Click Me"/>
     <Qbutton label="Click to see more"/>
     <Qnested/> */}
-    <ConditionUser isLoggedIn={false} username="Athulya"/>
-    <List/>
+
+    {/* <ConditionUser isLoggedIn={false} username="Athulya"/>
+    {fruits.length>0&&<List item={fruits} category="fruit"/>}
+   {veg.length>0 && <List item={veg} category="Vegitable"/>}
+    {car.length>0&&<List item={car} category="Car"/>} */}
+    
+      <EventButton/>
     </>
   )
 }
