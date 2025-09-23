@@ -273,6 +273,9 @@ in components inside the fn's return we can write normal html
     default value for props in case they are not passed from the parent component
     name:guest
 
+# conditional rendering
+    allows you to control what gets renderd in your application based on certain conditions(show,hide,or change components)
+
 
 
 
