@@ -91,3 +91,19 @@
   color: black;
   cursor: pointer;
 }
+/**********************Counter******************************/
+.countbtn{
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(25, 76%, 31%);
+  cursor: pointer;
+  background-color:  hsl(25, 76%, 70%);;
+ 
+}
+.countbtn:hover{
+  background-color:  hsl(25, 76%, 31%);
+}
+.countval{
+  margin-left: 100px;
+}

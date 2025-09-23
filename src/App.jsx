@@ -3,7 +3,9 @@ import ButtonStyleInline from "./ButtonStyleInline"
 import Button from "./Components/ButtonStyle"
 import Card from "./Components/Card"
 import ConditionUser from "./Components/ConditionUser"
+import Counter from "./Components/Counter"
 import EventButton from "./Components/EventButton"
+import EventProfile from "./Components/EventProfile"
 import Food from "./Components/Food"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
@@ -47,7 +49,10 @@ function App() {
    {veg.length>0 && <List item={veg} category="Vegitable"/>}
     {car.length>0&&<List item={car} category="Car"/>} */}
     
-      <EventButton/>
+      {/* <EventButton/>
+      <EventProfile/> */}
+
+      <Counter/>
     </>
   )
 }

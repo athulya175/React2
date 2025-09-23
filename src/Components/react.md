@@ -278,7 +278,7 @@ in components inside the fn's return we can write normal html
 # click event 
     An interaction when a user clicks on a specific element. We can respond to clicks by passing a callback to the onClick event handler.
 
+# React hook
+    Special function that allows functional components to use React features without writing class components
+    (useState,useEffect,useContext,useReducer,useCallback)
 
-
-
-    
