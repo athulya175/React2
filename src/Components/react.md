@@ -257,6 +257,21 @@ in components inside the fn's return we can write normal html
 2) Modules
 3) Inline
 
+# props
+    read-only properties that are shared between components.A Parent component can send data to child component
+    <Component key=value/>
+
+    if we are giving property and its not a string then it should enclosed within {}-->number,boolean, and if we are using boolean then needs to be use a ternary operator
+
+# propType
+    a mechanism that ensures that the passed value is of the correct datatype.
+    age:PropTypes.number
+
+    // if we pass propType that will not break our program insted on console there came a warning
+
+# defaultProps
+    default value for props in case they are not passed from the parent component
+    name:guest
 
 
 

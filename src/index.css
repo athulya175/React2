@@ -22,3 +22,23 @@
   font-family: Arial, Helvetica, sans-serif;
   color: hsl(0, 1%, 42%);
 }
+.button{
+  background-color: antiquewhite;
+  color: green;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/************************Students.jsx**********************/
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border-bottom: 1px solid brown;
+  width: auto;
+}
+.student p{
+  margin: 0;
+}
