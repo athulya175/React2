@@ -18,6 +18,8 @@ import Qbutton from "./Problems/Qbutton"
 import Qnested from "./Problems/Qnested"
 import Qprofile from "./Problems/Qprofile"
 import Qsum from "./Problems/QsumOfTwoNum"
+import UpdateObjState from "./Components/updateObjState"
+import UpdateArrayState from "./Components/updateArrayState"
 function App() {
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
     const veg=[{id:5,name:"potato",calories:110},{id:2,name:"celery",calories:15},{id:3,name:"carrot",calories:25},{id:4,name:"corn",calories:21}]
@@ -55,10 +57,14 @@ function App() {
       {/* <EventButton/>
       <EventProfile/> */}
 
-      <Counter/>
-      <EventOnchange/>
-      
-      <ColorPick/>
+      {/* <Counter/>
+      <EventOnchange/> */}
+
+      {/* <ColorPick/> */}
+
+      {/* <UpdateObjState/> */}
+
+      <UpdateArrayState/>
     </>
   )
 }

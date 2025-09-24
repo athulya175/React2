@@ -10,7 +10,7 @@
             setCount(count-1)
         }
         function handleReset(){
-            setCount(count=0)
+            setCount(0)
         }
         return(
         <>
@@ -47,14 +47,14 @@ function Counter(){
 
         // by using the updator function ,
         // Takes the Pending state to calculate next state.
-        //React puts your updater function in a queue(waiting in line)
+        //React puts your updater function in a queue(waiting in line) inted of bunching all of them together
         // During the next render,it will call them in the same order.
     }
     function handleDecrement(){
-        setCount(count-1)
+        setCount(c=>c-1)
     }
     function handleReset(){
-        setCount(count=0)
+        setCount(0)
     }
     return(
     <>

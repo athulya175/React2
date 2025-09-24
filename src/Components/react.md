@@ -287,8 +287,10 @@ in components inside the fn's return we can write normal html
 
 # onChange
     event handler used primarily with form elements ex,<input>,<select>,<radio> Triggers a function every time the value of the input changes.
-# updater function
+# updater function (same in counter)
     * A function passed as an argument to setState() usually ex. setYear(year+1)
     * Allow for safe updates based on the previous state 
     *Used with multiple state updates and asynchronous functions,good practice use updater fns
+# update object state
+
 
