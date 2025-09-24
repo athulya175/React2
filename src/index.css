@@ -107,3 +107,25 @@
 .countval{
   margin-left: 100px;
 }
+
+/*************************Color Picker***************************/
+.color-container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.color-text{
+  text-align: center;
+}
+.color-layout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

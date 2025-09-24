@@ -1,10 +1,13 @@
 import ButtonStyle2 from "./Button/ButtonStyle2"
-import ButtonStyleInline from "./ButtonStyleInline"
+import ButtonStyleInline from "./Components/ButtonStyleInline"
 import Button from "./Components/ButtonStyle"
 import Card from "./Components/Card"
+import ColorPick from "./Components/Colorpicup"
 import ConditionUser from "./Components/ConditionUser"
 import Counter from "./Components/Counter"
 import EventButton from "./Components/EventButton"
+import EventOnchange from "./Components/EventOnchange"
+import EventOnchhange from "./Components/EventOnchange"
 import EventProfile from "./Components/EventProfile"
 import Food from "./Components/Food"
 import Footer from "./Components/Footer"
@@ -53,6 +56,9 @@ function App() {
       <EventProfile/> */}
 
       <Counter/>
+      <EventOnchange/>
+      
+      <ColorPick/>
     </>
   )
 }
