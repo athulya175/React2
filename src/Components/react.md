@@ -293,4 +293,24 @@ in components inside the fn's return we can write normal html
     *Used with multiple state updates and asynchronous functions,good practice use updater fns
 # update object state
 
+# useEffect() 
+    React Hook that tells React do some code when(pic one)
+        "This component re-renders"
+        "This component mounts"
+        "This state of a value"
+
+    * useEffect(function,[dependencies])
+        1.useEffect(()=>{})           // Runs after every re-render
+        2.useEffect(()=>{},[])       //Runs only on mount
+        3.useEffect(()=>{},[value]) // Runs on mount + when value changes
+    
+    * USES
+        1. Event listeners
+        2. Dom manipulation
+        3. Subscriptions(real-time updates)
+        4. Fetching
+        5. Clean up when a component unmount
+
+
+
 
