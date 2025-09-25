@@ -301,7 +301,7 @@ in components inside the fn's return we can write normal html
 
     * useEffect(function,[dependencies])
         1.useEffect(()=>{})           // Runs after every re-render
-        2.useEffect(()=>{},[])       //Runs only on mount
+        2.useEffect(()=>{},[])       //Runs only on mount and not during every render, that means this code only runs once when the component mounts.
         3.useEffect(()=>{},[value]) // Runs on mount + when value changes
     
     * USES
@@ -310,6 +310,9 @@ in components inside the fn's return we can write normal html
         3. Subscriptions(real-time updates)
         4. Fetching
         5. Clean up when a component unmount
+
+# mounting :Adding a component to the dom
+# unmounting : removing a component from the dom
 
 
 
