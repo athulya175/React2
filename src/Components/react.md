@@ -316,4 +316,26 @@ in components inside the fn's return we can write normal html
 
 # useContext()  {Component A,Component B...} 
     React hook that allows you to share values b/w multiple leverls of components without passing props through each level
+   # here its called prop drilling-->we created a state variable inside the component-A,and pass it as a props to component-D through A->B->C->D :=> here prop drilling is a liitile complecatitve insted of that we can use useContext()hook
 
+# useContext()
+    React Hook that allows you to share values between multiple levels of components without passing props through each level.
+
+    Provider Component
+        1. import{createContext} from 'react'
+        2.export const MyContext=createContext()
+        3.<MyContext.Provider value={value}>
+            <child/>
+          <MyContext.Provider>
+
+    Consumer Components
+        1.import React,{useContext} from 'react'
+            import{MyContext} from './Component'
+        2. Const value=useContext(MyContext)
+
+# useRef()
+    "use Reference" Does not cause re-renders when its value changes.When you want a component to "remember" some information,but you don't want that information to trigger new renders.
+
+    1. Accessing/Interacting with DOM elements
+    2. Handling Focus,ANimations,and Transitions
+    3. Managing Timers and Intervals
