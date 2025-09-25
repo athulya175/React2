@@ -314,6 +314,6 @@ in components inside the fn's return we can write normal html
 # mounting :Adding a component to the dom
 # unmounting : removing a component from the dom
 
-
-
+# useContext()  {Component A,Component B...} 
+    React hook that allows you to share values b/w multiple leverls of components without passing props through each level
 
