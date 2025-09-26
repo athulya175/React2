@@ -339,3 +339,31 @@ in components inside the fn's return we can write normal html
     1. Accessing/Interacting with DOM elements
     2. Handling Focus,ANimations,and Transitions
     3. Managing Timers and Intervals
+
+# =>
+    Use State renders the component when the state value changes use ref means use reference were storing  a reference to something when you use useref it returns an object an object with one property of current that current property can store a value an array an object or an HTML element,when the stored value changes it doesn't cause the component to render, this is helpful with accessing and interacting with dom elements handling Focus animations and transitions as well as managing timers and  intervals.
+
+# Day-4:
+--------
+    1.  Understanding "state" in React and why it's necessary. 
+    2.  Introduction to the useState Hook for managing data within a component. 
+    3.  How to correctly update state to trigger a re-render.
+
+    * In React state is an object(variable) that stores dynamic data for a component.
+    * Unlike normal variables,React watches state value and will re-render the component when they changes
+    * with out state UI will never update automatically
+
+ # introduction to useState Hook
+ -------------------------------
+    useState is a React Hook that lets you add State to functional component
+
+  * Syntax
+        const[value,setValue]=useState(initialValue)
+        value-->the current state
+        setValue-->a function to update the state
+        initialvalue-->the default starting value
+
+ * Always use the state updater function(setState) provided by useState
+ * State = m/y  for components-> tells React when to re-render
+ * useState Hook  = adds state to functional components.
+ * Correctly updating state=always use the updater function(setState),not direct assignment.
