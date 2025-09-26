@@ -34,10 +34,27 @@ import ComponentD from "./Components/ComponentD"
 import UseRef from "./Components/UseRef"
 import Counter4 from "./Task/Counter4"
 import Stopwatch from "./Components/StopWatch"
+import ButtonDev from "./ReactDev/ButtonDev"
+import UserProfile from "./ReactDev/Userprofile"
+import CheckLogin from "./ReactDev/CheckLogin"
+import RenderingList from "./ReactDev/RenderingLists"
+import RespondingToEvent from "./ReactDev/RespondingToEvent"
+import CounterDev from "./CounterDev"
+import { useState } from "react"
+import TicTacToe from "./ReactDev/TicTacToe"
 function App() {
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
     const veg=[{id:5,name:"potato",calories:110},{id:2,name:"celery",calories:15},{id:3,name:"carrot",calories:25},{id:4,name:"corn",calories:21}]
     const car=[]
+
+    const [count,setCount]=useState(0)
+    function ClickHandler(){
+        setCount(c=>c+1)
+
+    }
+    function ClickDecrement(){
+      setCount(c=>c-1)
+    }
   return(
     <>
     {/* <Header/>
@@ -99,8 +116,25 @@ function App() {
 
         {/* <Counter4/> */}
 
-        <Stopwatch/>
+        {/* <Stopwatch/> */}
+
+        {/* ---------------React dev----------------- */}
+      {/* <h1>welcome to my App</h1>
+        <ButtonDev/> */}
         
+        {/* <UserProfile/> */}
+
+        {/* <CheckLogin/> */}
+
+        {/* <RenderingList/>
+        <RespondingToEvent/> */}  
+
+        {/* <h1>Counters that update together</h1>
+        <CounterDev count={count} onClick={ClickHandler}/>
+        <CounterDev count={count} onClick={ClickHandler}/>
+        <CounterDev count={count} onClick={ClickDecrement}/> */}
+
+        <TicTacToe/>
     </>
   )
 }

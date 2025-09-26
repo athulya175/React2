@@ -363,7 +363,45 @@ in components inside the fn's return we can write normal html
         setValue-->a function to update the state
         initialvalue-->the default starting value
 
- * Always use the state updater function(setState) provided by useState
- * State = m/y  for components-> tells React when to re-render
- * useState Hook  = adds state to functional components.
- * Correctly updating state=always use the updater function(setState),not direct assignment.
+    * Always use the state updater function(setState) provided by useState
+    * State = m/y  for components-> tells React when to re-render
+    * useState Hook  = adds state to functional components.
+    * Correctly updating state=always use the updater function(setState),not direct assignment.
+
+# Day-5
+-------
+
+* what is a state?
+    * state is a way for component to keep track of information that can change over time.
+
+    * Unlike props(which are passed from parent to child),state is internal and controlled by component itself.
+
+    * When state change-> react automatically re-renders the component.
+
+👉 Key Point: Updating state triggers a re-render.
+
+* The useEffect Hook
+   * why we need it?
+    some tasks must happen as a side-effect of rendering.Example
+        * Fetching data from an API
+        * Updating the document title
+        * Starting/ clearing timers.
+    useEffect lets us run code after the component renders.
+
+    * Syntax
+            useEffect(()=>{
+                // side effect code here
+            },[dependencies])
+        
+        * First argument:function with your side effect logic
+        * second argument: dependency array
+            []        --->Run only once(like componentDidMount)
+            [variable]--->run every time variable changes
+            no arrray ---> run on every render
+
+----------------------------------React Dev-----------------------
+
+
+* React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
+
+* JSX is stricter than HTML. You have to close tags like <br />. Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> wrapper:
