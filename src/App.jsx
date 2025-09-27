@@ -42,6 +42,15 @@ import RespondingToEvent from "./ReactDev/RespondingToEvent"
 import CounterDev from "./CounterDev"
 import { useState } from "react"
 import TicTacToe from "./ReactDev/TicTacToe"
+import ToogleVisibility from "./Problems/ToogleVisibility"
+import QFormHandling from "./Problems/QFormHandling"
+import QcolorChange from "./Problems/QcolorChanger"
+import QFetch from "./Problems/QfetchFromAPI"
+import Searchfilter from "./Problems/SearchFilter"
+import FilterFetch from "./Problems/SearchFetch"
+import DarkLightToogle from "./Problems/DarkLightToogle"
+import ToDoListTask from "./Task/ToDoList"
+import ToDoFetch from "./Task/ToDoFetch"
 function App() {
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
     const veg=[{id:5,name:"potato",calories:110},{id:2,name:"celery",calories:15},{id:3,name:"carrot",calories:25},{id:4,name:"corn",calories:21}]
@@ -118,6 +127,24 @@ function App() {
 
         {/* <Stopwatch/> */}
 
+        {/* <ToogleVisibility/> */}
+
+        {/* <QFormHandling/> */}
+
+        {/* <QcolorChange/> */}
+
+        {/* <QFetch/> */}
+
+        {/* <Searchfilter/> */}
+
+        {/* <FilterFetch/> */}
+
+        {/* <DarkLightToogle/> */}
+
+        {/* <ToDoListTask/> */}
+
+        <ToDoFetch/>
+        
         {/* ---------------React dev----------------- */}
       {/* <h1>welcome to my App</h1>
         <ButtonDev/> */}
@@ -134,7 +161,7 @@ function App() {
         <CounterDev count={count} onClick={ClickHandler}/>
         <CounterDev count={count} onClick={ClickDecrement}/> */}
 
-        <TicTacToe/>
+        {/* <TicTacToe/> */}
     </>
   )
 }

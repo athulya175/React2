@@ -189,4 +189,57 @@ body{
   clear: both;
   content: '';
   display: table;
+ 
+}
+/********************************************************/
+.toDoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.listContainer{
+  position: relative;
+  width: 50%;
+  
+}
+.todoUl{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.todoUl :hover{
+  background-color: #cccccc3d;;
+}
+.btnRemove{
+  right: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  
+}
+
+.toDoLists{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.toDoLists input[type="checkbox"]{
+  margin-right: 10px;
+}
+.toDoLists span{
+  flex: 1;
+  word-break: break-word;
+}
+.btnRemove{
+  margin-left: 10px;
+}
+.btnAdd{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
