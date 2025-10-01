@@ -405,3 +405,10 @@ in components inside the fn's return we can write normal html
 * React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
 
 * JSX is stricter than HTML. You have to close tags like <br />. Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> wrapper:
+
+# --------------------------------------------------------------------------------
+A controlled component is an input form element whose value is controlled by React state.This means that React state is the single source of truth for the input.
+
+input value=state
+change to input=update state via onChange 
+

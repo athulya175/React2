@@ -57,6 +57,9 @@ import "tailwindcss";
 import ListConditionalRendering from "./Components/Week-2/ListConditionalRendering"
 import ListRenderingUi from "./Components/Week-2/ListRenderingUi"
 import Rendering from "./Task/Week-2/Rendering"
+import LoginToogle from "./Task/Week-2/LoginLogout"
+import FormHandling from "./Components/Week-2/FormHandling"
+import Registrationform from "./Task/Week-2/RegistrationForm"
 function App() {
   const fruits1=["Apple","Banana","Orange"]
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
@@ -159,7 +162,12 @@ function App() {
         {/* <ListConditionalRendering/> */}
 
         {/* <ListRenderingUi/> */}
-        <Rendering array={fruits} title="fruits" value="name"/>
+        {/* <Rendering array={fruits} title="fruits" value="name"/> */}
+
+       {/* <LoginToogle/> */}
+
+       {/* <FormHandling/> */}
+       <Registrationform/>
         {/* ---------------React dev----------------- */}
       {/* <h1>welcome to my App</h1>
         <ButtonDev/> */}

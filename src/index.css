@@ -1,5 +1,5 @@
 @import "tailwindcss";
-.card{
+/* .card{
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
@@ -29,10 +29,10 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-}
+} */
 
 /************************Students.jsx**********************/
-.student{
+/* .student{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   padding: 10px;
@@ -41,9 +41,9 @@
 }
 .student p{
   margin: 0;
-}
+} */
 /*************Q profile****************/
-.profile{
+/* .profile{
   display:inline-block;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
   min-width:  100px;
@@ -52,26 +52,26 @@
   margin: 10px;
   padding: 12px;
   border: 1px solid brown;
-}
+} */
 
 /********************Q button*************************/
-.Qbtn{
+/* .Qbtn{
   padding: 12px;
   color: red;
   border-radius: 5px;
   
-}
+} */
 
 /********************ConditionUser*********************/
-.contrue{
+/* .contrue{
   color: green;
 }
 .confalse{
   color: red;
-}
+} */
 
 /**********************List***************************/
-.list-title{
+/* .list-title{
   font-size: 2.5em;
   font-weight: bold;
   margin-bottom: 10px;
@@ -90,9 +90,9 @@
 .list-item li:hover{
   color: black;
   cursor: pointer;
-}
+} */
 /**********************Counter******************************/
-.countbtn{
+/* .countbtn{
   padding: 12px;
   margin: 10px;
   border-radius: 5px;
@@ -106,10 +106,10 @@
 }
 .countval{
   margin-left: 100px;
-}
+} */
 
 /*************************Color Picker***************************/
-.color-container{
+/* .color-container{
     width: 200px;
     height: 200px;
     display: flex;
@@ -128,7 +128,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 /**************************Digital Clock*********************************/
 /*
@@ -142,7 +142,7 @@
   }
 */
 /* for blur effect */
-.clock-container{
+/* .clock-container{
   backdrop-filter: blur(5px);
   width: 100vw;
   padding: 10px 0;
@@ -154,17 +154,17 @@
       font-family: monospace;
       text-shadow: 3px 3px 5px grey;
       text-align: center;
-}
+} */
 
 /************************Component A,B,C****************************/
-.component-box{
+/* .component-box{
     border: 1px solid black;
     padding: 25px;
 
-}
+} */
 /*----------------------Tic-Tac-Toe------------------------*/
 
-*{
+/* *{
     box-sizing: border-box;
 }
 body{
@@ -190,9 +190,9 @@ body{
   content: '';
   display: table;
  
-}
+} */
 /********************************************************/
-.toDoContainer{
+/* .toDoContainer{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,4 +244,4 @@ body{
   padding: 5px;
   border-radius: 5px;
   border: 1px solid black;
-}
+} */
