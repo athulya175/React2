@@ -78,7 +78,7 @@ React is a JS library(not a framework) developed by facebook for building user i
      // child component
      function Welcome(props){
         return<h1>hello,{props.name}</h1>
-     }
+     } 
      // parent component
       function App(){
         return(

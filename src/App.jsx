@@ -52,7 +52,13 @@ import DarkLightToogle from "./Problems/DarkLightToogle"
 import ToDoListTask from "./Task/ToDoList"
 import ToDoFetch from "./Task/ToDoFetch"
 import ToDoparent from "./Task/ToDoParent"
+import ListRendering from "./Components/Week-2/ListRendering"
+import "tailwindcss";
+import ListConditionalRendering from "./Components/Week-2/ListConditionalRendering"
+import ListRenderingUi from "./Components/Week-2/ListRenderingUi"
+import Rendering from "./Task/Week-2/Rendering"
 function App() {
+  const fruits1=["Apple","Banana","Orange"]
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
     const veg=[{id:5,name:"potato",calories:110},{id:2,name:"celery",calories:15},{id:3,name:"carrot",calories:25},{id:4,name:"corn",calories:21}]
     const car=[]
@@ -111,8 +117,8 @@ function App() {
 
       {/* <ToDoList/> */}
 
-      <Card3 title="woods Job" description="A directionless young man joins a forestry training program after failing college exams and, through challenges and nature, discovers purpose, community, and self-growth." image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9PSvMFQhEgpqUEwJgPj_vguwXr73_ikwaGE_tUkJhPiHFEiUNWX3rp87aliWqLViivIwdR0Ub9vmJFI3D2w7xcZAyzoqK9nnrdz07QuB4VQ"/>
-        <Parent/>
+      {/* <Card3 title="woods Job" description="A directionless young man joins a forestry training program after failing college exams and, through challenges and nature, discovers purpose, community, and self-growth." image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9PSvMFQhEgpqUEwJgPj_vguwXr73_ikwaGE_tUkJhPiHFEiUNWX3rp87aliWqLViivIwdR0Ub9vmJFI3D2w7xcZAyzoqK9nnrdz07QuB4VQ"/>
+        <Parent/> */}
 
         {/* <UseEffect/> */}
 
@@ -146,7 +152,14 @@ function App() {
 
         {/* <ToDoFetch/> */}
         
-        <ToDoparent userLimit={20}/>
+        {/* <ToDoparent userLimit={20}/> */}
+
+        {/* <ListRendering/> */}
+
+        {/* <ListConditionalRendering/> */}
+
+        {/* <ListRenderingUi/> */}
+        <Rendering array={fruits} title="fruits" value="name"/>
         {/* ---------------React dev----------------- */}
       {/* <h1>welcome to my App</h1>
         <ButtonDev/> */}

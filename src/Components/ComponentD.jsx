@@ -27,8 +27,12 @@ function ComponentD(){
     return(
         <div className="component-box">
             <h1>Component D</h1>
-            <h2>{`Bye ${user}`}</h2>
+            <h2>{`Bye ${user}`}</h2>${err}
         </div>
     )
 }
 export default ComponentD
+
+
+
+
