@@ -59,7 +59,13 @@ import ListRenderingUi from "./Components/Week-2/ListRenderingUi"
 import Rendering from "./Task/Week-2/Rendering"
 import LoginToogle from "./Task/Week-2/LoginLogout"
 import FormHandling from "./Components/Week-2/FormHandling"
-import Registrationform from "./Task/Week-2/RegistrationForm"
+import Registrationform from "./Components/Week-2/RegistrationForm"
+import UseEffectCount from "./Components/Week-2/UseEffect"
+import UseEffectInFetch from "./Components/Week-2/UseEffect"
+import UseEffectInTimers from "./Components/Week-2/UseEffect"
+import Timer from "./Task/Week-2/Timer"
+// import ParentComponentCommunication from "./Components/Week-2/ComponentCommunication"
+import ParentCallBackCompComm from "./Components/Week-2/CallBackCompComtn"
 function App() {
   const fruits1=["Apple","Banana","Orange"]
   const fruits=[{id:1,name:"apple",calories:95},{id:2,name:"orange",calories:45},{id:3,name:"coconut",calories:159},{id:4,name:"banana",calories:210}]
@@ -167,7 +173,18 @@ function App() {
        {/* <LoginToogle/> */}
 
        {/* <FormHandling/> */}
-       <Registrationform/>
+
+       {/* <Registrationform/> */}
+
+       {/* <UseEffectCount/> */}
+
+       {/* <UseEffectInFetch/> */}
+
+       {/* <Timer/> */}
+
+       {/* <ParentComponentCommunication/> */}
+
+       <ParentCallBackCompComm/>
         {/* ---------------React dev----------------- */}
       {/* <h1>welcome to my App</h1>
         <ButtonDev/> */}

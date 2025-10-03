@@ -412,3 +412,26 @@ A controlled component is an input form element whose value is controlled by Rea
 input value=state
 change to input=update state via onChange 
 
+# ---------------------------------------------------------------------------------
+
+Use effect
+----------
+ Its a react hook  that tells to do something when,
+ * a component re-renders
+ * a component mounts (created)
+ * the state changes
+
+ useEffect(()=>{})   // Runs after every re-renders
+ useEffect(()=>{},[]) // runs only mounts
+useEffecct(()=>{},[value]) runs on mount+value changes
+
+# # cntl+shif+N
+
+
+# Async operations in useEffect must be handled with .then() or an inner async function.
+
+# try/catch only works with await, not with .then() directly.
+
+# useEffect with an empty dependency array [] ensures the fetch happens only once when the component mounts.
+---------------------------------------------------------------
+*  Lifting state up is a React pattern used to share data between components by moving the state to their closest common ancestor (parent component). This allows sibling or nested components to access and update the same state via props, ensuring a single source of truth and adhering to React’s unidirectional data flow.
